@@ -13,7 +13,7 @@ export default defineConfig([
       "no-console": "warn",
       "quotes": ["error", "double"],
       "prefer-const": "error",
-      "indent": ["warn", 4],
+      "indent": ["warn", 2],
       "max-len": ["error", { "code": 120 }],
       "comma-dangle": ["error", "always-multiline"],
       "semi": ["warn", "always"],
