@@ -37,6 +37,18 @@ Your app is ready to be deployed!
 
 `/src` folder is root directory, it contains `html` and `css` files, we are working with.
 
-`/dist` folder needed for our builded application.
+`/dist` folder needed for builded application.
 
-`/commands` folder contain all the commands our application uses.
+`src/script/index.js` is entry point of application 
+
+`/src/script/commands` folder contain all the commands this application uses.
+
+`/src/receiver` folder with calculator receiver, wich care all the information about calculator
+
+`src/invoker` folder with invoker, wich execute all the commands
+
+`src/constats.js` contain keyboard sings associated with their commands
+
+`src/utils.js` contain utility functions
+
+`src/theme-swithcer.js` contain functionality for switching application theme
