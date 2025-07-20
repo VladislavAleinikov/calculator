@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Multiply } from "./multiply";
+import { Multiply } from "../../script/commands/operation-commands/multiply/multiply";
 
 describe("Multiply", () => {
   const multiply = new Multiply();

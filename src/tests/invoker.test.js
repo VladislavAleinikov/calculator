@@ -1,7 +1,7 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Invoker } from "./invoker.js";
-import { CalculatorReceiver } from "../receiver/calculator-reciver.js";
+import { Invoker } from "../script/invoker/invoker.js";
+import { CalculatorReceiver } from "../script/receiver/calculator-reciver.js";
 
 describe("Invoker", () => {
   const calculatorReceiver = new CalculatorReceiver();

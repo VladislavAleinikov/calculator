@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { YRoot } from "./y-root";
+import { YRoot } from "../../script/commands/operation-commands/y-root/y-root";
 
 describe("Y root", () => {
   const yRoot = new YRoot();

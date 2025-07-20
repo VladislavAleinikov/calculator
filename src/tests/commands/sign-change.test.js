@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { SignChange } from "./sign-change";
+import { SignChange } from "../../script/commands/operation-commands/sign-change/sign-change";
 
 describe("Sign change", () => {
   const signChange = new SignChange();

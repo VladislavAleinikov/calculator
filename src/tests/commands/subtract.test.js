@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Subtract } from "./subtract";
+import { Subtract } from "../../script/commands/operation-commands/subtract/subtract";
 
 describe("Subtract", () => {
   const subtract = new Subtract();

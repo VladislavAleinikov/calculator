@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Reciprocal } from "./reciprocal";
+import { Reciprocal } from "../../script/commands/operation-commands/reciprocal/reciprocal";
 
 describe("Reciprocal", () => {
   const reciprocal = new Reciprocal();

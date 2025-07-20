@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Percent } from "./percent";
+import { Percent } from "../../script/commands/operation-commands/percent/percent";
 
 describe("Percent", () => {
   const percent = new Percent();

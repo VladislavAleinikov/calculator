@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Divide } from "./divide";
+import { Divide } from "../../script/commands/operation-commands/divide/divide";
 
 describe("Divide", () => {
   const divide = new Divide();

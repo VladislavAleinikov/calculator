@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Add } from "./add";
+import { Add } from "../../script/commands/operation-commands/add/add";
 
 describe("Add", () => {
   const add = new Add();

@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Power } from "./power";
+import { Power } from "../../script/commands/operation-commands/power/power";
 
 describe("Power", () => {
   const power = new Power();

@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { Factorial } from "./factorial";
+import { Factorial } from "../../script/commands/operation-commands/factorial/factorial";
 
 describe("Factorial", () => {
   const factorial = new Factorial();

@@ -52,3 +52,5 @@ Your app is ready to be deployed!
 `src/utils.js` contain utility functions
 
 `src/theme-swithcer.js` contain functionality for switching application theme
+
+`src/tests` contain all the tests

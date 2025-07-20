@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals";
 
-import { SquareRoot } from "./square-root";
+import { SquareRoot } from "../../script/commands/operation-commands/square-root/square-root";
 
 describe("Square root", () => {
   const squareRoot = new SquareRoot();
