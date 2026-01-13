@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calculator-top">
+        <button class="theme-switcher">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+            <path d="M12 3l0 18"></path>
+            <path d="M12 9l4.65 -4.65"></path>
+            <path d="M12 14.3l7.37 -7.37"></path>
+            <path d="M12 19.6l8.85 -8.85"></path>
+          </svg>
+        </button>
+        <div class="output">
+          <span class="current-state"></span>
+          <span class="future-state"></span>
+          <span class="error-state"></span>
+        </div>
+      </div>
+      <ul class="buttons">
+        <li class="button" data-sign="m-read">mr</li>
+        <li class="button" data-sign="m-clear">mc</li>
+        <li class="button" data-sign="undo">&#9100;</li>
+        <li class="button button--wide" data-sign="clear">C</li>
+
+        <li class="button" data-sign="m-plus">m+</li>
+        <li class="button" data-sign="m-minus">m-</li>
+        <li class="button" data-sign="reciprocal"><sup>1</sup>/<sub>x</sub></li>
+        <li class="button" data-sign="percent">%</li>
+        <li class="button" data-sign="sign-change">&#177;</li>
+
+        <li class="button" data-sign="y-root"><sup>y</sup>&radic;x</li>
+        <li class="button" data-sign="square-root"><sup>2</sup>&radic;x</li>
+        <li class="button" data-sign="7">7</li>
+        <li class="button" data-sign="8">8</li>
+        <li class="button" data-sign="9">9</li>
+
+        <li class="button" data-sign="cube">x<sup>3</sup></li>
+        <li class="button" data-sign="square">x<sup>2</sup></li>
+        <li class="button" data-sign="4">4</li>
+        <li class="button" data-sign="5">5</li>
+        <li class="button" data-sign="6">6</li>
+
+        <li class="button" data-sign="power">x<sup>y</sup></li>
+        <li class="button" data-sign="divide">&#247;</li>
+        <li class="button" data-sign="1">1</li>
+        <li class="button" data-sign="2">2</li>
+        <li class="button" data-sign="3">3</li>
+
+        <li class="button" data-sign="power-10">10<sup>x</sup></li>
+        <li class="button" data-sign="multiply">&#215;</li>
+        <li class="button" data-sign=".">.</li>
+        <li class="button button--wide" data-sign="0">0</li>
+
+        <li class="button" data-sign="factorial">!x</li>
+        <li class="button" data-sign="subtract">-</li>
+        <li class="button" data-sign="add">+</li>
+        <li class="button button--wide" data-sign="equals">=</li>
+      </ul>
+    </div>
+  </body>
+</html>
